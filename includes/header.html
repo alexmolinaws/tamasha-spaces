@@ -1,0 +1,78 @@
+<header
+  id="mobile-header"
+  class="sticky top-0 md:hidden py-4 px-6 text-lite bg-main z-20"
+>
+  <div class="navbar">
+    <a href="index.php" class="block w-9/12">
+      <img
+        src="media/white-logo.webp"
+        width="130px"
+        alt="Tamasha Spaces png logo"
+      />
+    </a>
+    <a
+      onclick="toggleComponent(cart)"
+      id="cart-btn"
+      class="btn w-[16%] text-center"
+      ><i class="bx bxs-cart"></i
+    ></a>
+
+    <button id="header-toggle" class="block w-1/12 text-end">
+      <i class="bx bx-menu text-4xl"></i>
+    </button>
+  </div>
+</header>
+
+<!-- MOBILE ONLY -->
+<div
+  id="mobile-nav"
+  class="hidden fixed top-[23vh] left-[12vw] w-[75vw] py-10 bg-dark opacity-0 transition-opacity duration-500"
+  style="z-index: 100"
+>
+  <nav
+    class="mx-auto text-center text-lite [&_a]:block pt-4 [&_a]:mx-auto [&_a]:mb-8"
+  >
+    <h3 class="font-subs text-xl">Main Menu</h3>
+    <div class="h-[1px] bg-gray-light w-4/6 mx-auto mt-5 mb-7"></div>
+    <a href="index.php">Solutions</a>
+    <a href="spaces.php">Spaces</a>
+    <a href="contact.php">Contact</a>
+  </nav>
+</div>
+
+<header
+  id="page-header"
+  class="hidden sticky top-0 md:block py-5 px-10 lg:px-16 text-lite bg-main z-40"
+>
+  <div class="navbar">
+    <div class="w-2/12">
+      <a href="index.php">
+        <img
+          src="media/white-logo.webp"
+          width="134px"
+          alt="Tamasha Spaces png logo"
+        />
+      </a>
+    </div>
+    <nav class="w-9/12 text-center lg:text-end">
+      <a
+        href="index.php"
+        class="mr-10 lg:mr-14 hover:text-gray-light transition-colors"
+        >Solutions</a
+      >
+      <a
+        href="spaces.php"
+        class="mr-10 lg:mr-14 hover:text-gray-light transition-colors"
+        >Spaces</a
+      >
+      <a href="contact.php" class="hover:text-gray-light transition-colors"
+        >Contact</a
+      >
+    </nav>
+    <div class="flex justify-end gap-7 items-center md:w-2/12 lg:w-1/12">
+      <a onclick="toggleComponent(cart)" id="cart-btn" class="btn"
+        ><i class="bx bxs-cart"></i> Cart</a
+      >
+    </div>
+  </div>
+</header>

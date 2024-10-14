@@ -1,0 +1,90 @@
+{
+    "conference": [
+        {
+            "hall": {
+                "name": "Conference Hall",
+                "description": "Our spacious conference hall is perfect for hosting large events, conferences, and meetings. With a capacity of 40 people, it's ideal for corporate events, product launches, and networking sessions.",
+                "capacity": 40,
+                "price": 150000,
+                "photos": ["../../media/conference-3.webp", "../../media/conference-1.webp", "../../media/conference-2.webp"]
+            }
+        },
+        {
+            "events": {
+                "name": "Events Space",
+                "description": "Located in the heart of Almaty, our event space is perfect for hosting events, parties, and gatherings. With a capacity of 30 people, it's ideal for birthday parties, anniversaries, and corporate events.",
+                "capacity": 40,
+                "price": 110000,
+                "photos": ["../../media/conference-2.webp", "../../media/conference-1.webp", "../../media/conference-3.webp"]
+            }
+        },
+        {
+            "meetings": {
+                "name": "Meetings Room",
+                "description": "Our modern meeting room is perfect for hosting small to medium-sized meetings and events. With a capacity of 20 people, it's ideal for team meetings, brainstorming sessions, and client presentations.",
+                "capacity": 20,
+                "price": 90000,
+                "photos": ["../../media/conference-1.webp", "../../media/conference-2.webp", "../../media/conference-3.webp"]
+            }
+        }
+
+    ],
+    "office": [
+        {
+            "coworking": {
+                "name": "Coworking Space",
+                "description": "Our cozy coworking space is perfect for freelancers, entrepreneurs, and small teams. With a capacity of 15 people, it's ideal for collaborative work, networking, and innovation.",
+                "capacity": 15,
+                "price": 60000,
+                "photos": ["../../media/office-1.webp", "../../media/office-3.webp", "../../media/office-2.webp"]
+            }
+        },
+        {
+            "private": {
+                "name": "Private Office",
+                "description": "Our private office is perfect for small teams and entrepreneurs who need a quiet and productive workspace. With a capacity of 10 people, it's ideal for focused work, meetings, and client consultations.",
+                "capacity": 10,
+                "price": 40000,
+                "photos": ["../../media/office-3.webp", "../../media/office-1.webp", "../../media/office-2.webp"]
+            }
+        },
+        {
+            "shared": {
+                "name": "Shared Office",
+                "description": "Our shared office space is perfect for teams and entrepreneurs who need a collaborative and dynamic workspace. With a capacity of 20 people, it's ideal for team meetings, brainstorming sessions, and client presentations.",
+                "capacity": 20,
+                "price": 80000,
+                "photos": ["../../media/office-2.webp", "../../media/office-1.webp", "../../media/office-3.webp"]
+            }
+        }
+    ],
+    "training": [
+        {
+            "room": {
+                "name": "Training Room",
+                "description": "Our training room is perfect for hosting workshops, seminars, and training sessions. With a capacity of 25 people, it's ideal for corporate training, team building, and professional development.",
+                "capacity": 25,
+                "price": 100000,
+                "photos": ["../../media/training-1.webp", "../../media/training-2.webp", "../../media/training-3.webp"]
+            }
+        },
+        {
+            "classroom": {
+                "name": "Classroom for Rent",
+                "description": "Our classroom is perfect for hosting lectures, workshops, and training sessions. With a capacity of 30 people, it's ideal for educational institutions, corporate training, and professional development.",
+                "capacity": 30,
+                "price": 120000,
+                "photos": ["../../media/training-3.webp", "../../media/training-1.webp", "../../media/training-2.webp"]
+            }
+        },
+        {
+            "seminar": {
+                "name": "Seminar Room",
+                "description": "Our seminar room is perfect for hosting conferences, workshops, and training sessions. With a capacity of 40 people, it's ideal for corporate events, product launches, and networking sessions.",
+                "capacity": 40,
+                "price": 150000,
+                "photos": ["../../media/training-2.webp", "../../media/training-1.webp", "../../media/training-3.webp"]
+            }
+        }
+    ]
+}

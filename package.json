@@ -1,0 +1,16 @@
+{
+   "name": "tamasha-spaces",
+   "version": "1.0.0",
+   "description": "a multi-page reservations website",
+   "main": "index.php",
+   "scripts": {
+      "dev": "npx tailwindcss -i ./src/css/tailwind.css -o ./src/css/styles.css --watch",
+      "format": "npx prettier . --write"
+   },
+   "author": "Alex Molina Web Services",
+   "license": "CC BY-NC-SA 4.0",
+   "devDependencies": {
+      "prettier": "3.3.3",
+      "tailwindcss": "^3.4.13"
+   }
+}
